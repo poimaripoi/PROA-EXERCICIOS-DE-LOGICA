@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Reescreva o codigo abaixo em JS
+        inicio 
+        varialvel reai n1, n2, media
+        escrever ("digite a sua 1° nota")
+        ler n1
+        escrever ("digite a sua 2° nota")
+        ler n2
+        media <-(n1+n2)/2
+        se (media>=7) entao 
+        escrever ("aprovado sua media é: ")
+        escrever media
+        senao
+        escrever ("reprovado sua media é: ")
+        escrever media
+        fim
+
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//https://lh4.googleusercontent.com/WinxOoUBRmTUxztR3lXRozRDnm1l3sCSzqKoxrhFtQQDyb_hrcOeTr7ePajYP_TF0YSSik-15v_qfe4TWDHAKmqD2USj2OfbqdwZ07nO5R1gxKQO1A8GLWMlGm1uW9x2tQ=w423
+
+numero = 0;
+soma = 0;
+
+for (i = 1; i <= 4; i++) {
+    var numero = Number(prompt("Digite um número inteiro: "));
+    if (numero > 0 && numero < 9) {
+        soma = soma + numero;
+    }
+}
+
+media = soma / 4;
+
+if (media > 5) {
+    document.write("Você passou no teste, sua média é: " + media);
+} else {
+    document.write("Tente novamente, sua média é : " + media);
+
+}
+    </script>
+</body>
+</html>

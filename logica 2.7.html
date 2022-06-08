@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--7. Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)-->
+</head>
+<body>
+    <script>
+        var num1 = prompt("Digite um número:");
+
+        var num2 = prompt("Digite outro número:");
+
+        var num3 = prompt("Digite outro número:");
+
+        var num4 = prompt("Digite outro número:");
+
+        document.write ("O primeiro número é " + num1);
+
+        document.write ("O ultimo número é " + num4);
+
+        if (num1 > num2 && num1 > num3 && num1 > num4){
+
+            document.write ("O maior número é " + num1);
+
+        }
+
+        if (num2 > num1 && num2 > num3 && num2 > num4){
+
+            document.write ("O maior número é " + num2);
+
+        }
+
+        if (num3 > num1 && num3 > num2 && num3 > num4){
+
+            document.write ("O maior número é " + num3);
+
+        }
+
+        if (num4 > num1 && num4 > num2 && num4 > num3){
+
+            document.write ("O maior número é " + num4);
+
+        }
+
+    </script>   
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--11. Faça um programa que leia 10 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        numero = 0;
+soma = 0;
+
+for (i = 1; i <= 10; i++) {
+    var numero = Number(prompt("Digite um número inteiro: "));
+    soma = soma + numero;
+    média = soma/10;
+}
+
+document.write("Média total dos 10 valores inseridos:" + "\n" + média);
+    </script>
+</body>
+</html>

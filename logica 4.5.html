@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Tá quente. Muito quente. Quente demaaaais.
+Vamos fazer um conversor de temperaturas.
+
+Crie uma função chamada converterCelsiusFahrenheit. 
+Ela deve:
+- Armazene uma temperatura Celsius em uma variável.
+- Converta-a para Fahrenheit e escreva a mensagem "X° C é igual a Y° F". (X e Y são os valores que devem ser substituídos.) 
+
+Crie uma função chamada converterFahrenheitCelsius. 
+Ela deve: 
+- Agora armazene uma temperatura fahrenheit em uma variável.
+- Converta-a para Celsius  e escreva a mensagem  " X° F é igual a Y° C." (X e Y são os valores que devem ser substituídos.) -->
+<script>
+    function converterCelsiusFahrenheit() {
+    var celsius = Number(prompt("Qual a temperatura em celsius?"));
+    calculoC = (celsius * 1.8) + 32;
+    document.write(celsius + "°C é igual a " + calculoC + "°F");
+}
+
+function converterFahrenheitCelsius() {
+    var fahrenheit = Number(prompt("Qual a temperatura em fahrenheit?"));
+    calculoF = (fahrenheit - 32) / 1.8;
+    document.write(fahrenheit + "°F é igual a " + calculoF + "°C");
+}
+
+converterCelsiusFahrenheit();
+document.write("<br/>");
+converterFahrenheitCelsius();
+</script>
+</head>
+<body>
+    
+</body>
+</html>

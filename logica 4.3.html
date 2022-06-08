@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Quanta fome a gente tem?
+Você já se perguntou quanto custa um "suprimento vitalício" da sua comida favorita? 
+Não se pergunte mais!
+
+Escreva uma função chamada calcularMeuLanche que:
+- aceita 2 argumentos: "idade", "quantidade de lanches por dia".
+- calcula a quantidade consumida para o resto da vida (com base em uma idade máxima constante).
+- exibe o resultado na tela da seguinte forma: "Você precisará de NN para durar até a idade X"
+
+Chame essa função três vezes, passando valores diferentes a cada vez.-->
+<script>
+function calcularMeuLanche(idade, qtdLancheDia) {
+    var idade = 80
+    var qtdLancheDia = prompt("Quanto de lanche você consome por dia?")
+    calculo = qtdLancheDia * idade
+    document.write("Você precisará de " + calculo + " lanches para durar até 80 anos")
+}
+
+calcularMeuLanche();
+document.write("<br/>");
+calcularMeuLanche();
+document.write("<br/>");
+calcularMeuLanche();
+</script>
+</head>
+<body>
+    
+</body>
+</html>
